@@ -11,6 +11,10 @@ export default {
         },
         xyellow: {
           300: "#ecb338"
+        },
+        xbrown: {
+          300: "#3f3221",
+          400: "#2d2418"
         }
       },
     },
