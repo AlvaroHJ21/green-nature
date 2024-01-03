@@ -1,0 +1,28 @@
+.swiper-button-next,
+.swiper-button-prev {
+  width: 50px; /* Ajusta el ancho según sea necesario */
+  height: 50px; /* Ajusta la altura según sea necesario */
+  color: #fff; /* Cambia el color del texto según sea necesario */
+  font-size: 10px; /* Ajusta el tamaño de la fuente según sea necesario */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.swiper-button-prev.swiper-button-disabled,
+.swiper-button-next.swiper-button-disabled {
+  opacity: 0;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 40px;
+}
+
+.swipper-wrapper:hover .swiper-button-next,
+.swipper-wrapper:hover .swiper-button-prev {
+  opacity: 1;
+}
